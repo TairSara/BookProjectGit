@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="95c5c1b6c9b44eee9888215bfa2485f0" Name="Diagram1">
+        <EntityTypeShape EntityType="libraryProjectModel.Book" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.Purchase" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.Rental" Width="1.5" PointX="6" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.Review" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.ShoppingCart" Width="1.5" PointX="3" PointY="12.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.User" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="libraryProjectModel.WaitList" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="libraryProjectModel.FK__Purchases__BookI__71D1E811" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__Rentals__BookID__76969D2E" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__Reviews__BookID__7E37BEF6" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__ShoppingC__BookI__0C85DE4D" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__WaitList__BookID__04E4BC85" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__Purchases__UserI__72C60C4A" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__Rentals__UserID__778AC167" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__Reviews__UserID__7F2BE32F" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__ShoppingC__UserI__0B91BA14" ManuallyRouted="false" />
+        <AssociationConnector Association="libraryProjectModel.FK__WaitList__UserID__05D8E0BE" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
